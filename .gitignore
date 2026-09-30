@@ -1,7 +1,16 @@
 .venv/
 node_modules/
 dist/
+.vercel/
+.env
+.env.*
+!.env.example
 __pycache__/
 **/__pycache__/
 *.py[cod]
+*.log
+htmlcov/
+.coverage
+.pytest_cache/
+.vscode/
 data/
